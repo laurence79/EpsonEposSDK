@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.source_files  = '*.h'
   s.preserve_paths = 'libepos2.a', 'libeposeasyselect.a'
   s.frameworks = 'UIKit', 'CoreGraphics', 'ExternalAccessory'
-  s.library   = 'epos2', 'eposeasyselect', 'z', 'libXML2.2'
+  s.library   = 'epos2', 'eposeasyselect', 'z', 'xml2.2'
   s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/EpsonEposSDK"' }
 end
